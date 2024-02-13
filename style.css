@@ -16,6 +16,12 @@ a {
 }
 header{
     color: #95E1D3;
+    display: flex;
+    justify-content: space-between;
+}
+.span-wrap{
+display: flex;
+justify-content: center;
 }
 .button1{
     background-color: #95E1D3;
@@ -32,6 +38,10 @@ width: 230px;
 .text{
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
+   font-size: 24px;
+   font-weight:400;
+   margin: 0 auto;
 }
 .title {
     font-weight: 700;
@@ -42,5 +52,9 @@ width: 230px;
     padding-left: 15px;
     padding-right: 15px;
     margin: auto 0;
-    border: solid red;
+    display: contents;
+}
+.header-list{ 
+ display: flex;
+ gap: 55px; 
 }
