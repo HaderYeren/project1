@@ -1,127 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoGo</title>
-    <link rel="stylesheet" href="link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Статистика продажів</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <header class="container">
-        
-        <a href="#">MoGo</a>
-        <nav>
-           <ul>
-<li>
-    <a href="">Service</a>
-</li>
-<a href="#">Work</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-           </ul>
-        </nav>
-    </header>
-    <main class="container">
-        <section>
-<div class="span-wrap">
-    <span class="text"><i>We work with</i></span>
-</div>
-            <h2 class="title">Amazing Servece</h2>
-            <div class="line"></div>
-            <ul>
-                <li>
-                    <div>
-                        <img src="" alt="Clock">
-                    </div>
-                    <div>
-                        <h3>Photografy</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                </li>
-                <li><div>
-                    <img src="" alt="Clock">
-                </div>
-                <div>
-                    <h3>Photografy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div></li>
-                <li><div>
-                    <img src="" alt="Clock">
-                </div>
-                <div>
-                    <h3>Photografy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div></li>
-                <li><div>
-                    <img src="" alt="Clock">
-                </div>
-                <div>
-                    <h3>Photografy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div></li>
-                <li><div>
-                    <img src="" alt="Clock">
-                </div>
-                <div>
-                    <h3>Photografy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div></li>
-                <li><div>
-                    <img src="" alt="Clock">
-                </div>
-                <div>
-                    <h3>Photografy</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div></li>
-            </ul>
-        </section>
-        <section>
-     <span>Who we are</span>
-     <h2>meet our team</h2>
-     <div class="line"></div>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-     <ul>
-        <li>
-            <div>
-                <img src="" alt="">
-            </div>
-            <h3>Matthew Dix</h3>
-            <p>Graphic Design</p>
-        </li>
-        <li>
-            <div>
-                <img src="" alt="">
-            </div>
-            <h3>Christopher Campbell</h3>
-            <p>Branding/UX design</p>
-        </li>
-        <li>
-            <div>
-                <img src="" alt="">
-            </div>
-            <h3>Michael Fertig </h3>
-            <p>Developer</p>
-        </li>
-     </ul>
-        </section>
-    </main>
-    <!--footer-->
-    <footer class="container">
-        <p>© 2016 MoGo free PSD template by <a href="#">Laaqiq</a></p>
-     <form>
-        <label>
-            <input type="text" placeholder="Your Email..." class="email1">
-        </label>
-        <button class="button1">SUBSCRIBE</button>
-     </form>
-    </footer>
+    <h1>Графік продажів за останній місяць</h1>
+    <canvas id="sales-chart" width="400" height="200"></canvas>
+    <script src="chart.js"></script>
 </body>
 </html>
